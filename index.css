@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    color: white;
+    font-family: 'Chakra Petch', sans-serif;
+}
+
+.calculator-container {
+    width: 25%;
+    margin: auto;
+}
+
+.display {
+    font-size: 48px;
+    text-align: right;
+}
+
+h1 {
+    text-align: center;
+}
+
+button {
+    background-color: rgb(84, 88, 88);
+    padding: 20px 0;
+    min-width: 50px;
+    width: 25%;
+    border-radius: 10px;
+    font-size: 24px;
+}
+
+.operator {
+    background-color: rgb(54, 114, 64);
+}
+
+#equate {
+    background-color: rgb(98, 163, 130);
+}
+
+#clear {
+    background-color: rgb(87, 128, 115);
+}
